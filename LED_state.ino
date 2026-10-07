@@ -8,13 +8,11 @@ void setup() {
 
 
 void loop() {
-  // Turn LED ON
   digitalWrite(ledPin, HIGH);
   Serial.println("LED is ON");
   delay(1000);
 
 
-  // Turn LED OFF
   digitalWrite(ledPin, LOW);
   Serial.println("LED is OFF");
   delay(1000);
